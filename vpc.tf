@@ -1,6 +1,6 @@
 module "vpc" {
-    #source = "git::https://github.com/Mohansai7-ctrl/terraform-aws-vpc.git?ref=main"
-    source = "../terraform-aws-vpc"
+    source = "git::https://github.com/Mohansai7-ctrl/terraform-aws-vpc.git?ref=main"
+    #source = "../terraform-aws-vpc"
     #These are the variable names of root module, but not acts as arguments of this child module
     vpc_cidr = var.vpc_cidr
     project_name = var.project_name
